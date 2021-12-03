@@ -1,0 +1,16 @@
+.buttonContainer{
+  display: flex;
+  justify-content: space-around;
+  button {
+    font-size: 2rem;
+    border: none;
+    padding: 1rem 4rem;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(172, 172, 172);
+  }
+  button:focus{
+    background-color: rgb(107, 107, 107);
+  }
+}
